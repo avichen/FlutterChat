@@ -40,6 +40,8 @@ class _ChatListState extends State<ChatList> {
         ],
       ),
       body: SafeArea(
+        // top: true,
+        // bottom: true,
         child: Column(
           children: <Widget>[
             ListPage(),

@@ -49,9 +49,7 @@ class _MessageChatState extends State<MessageChat> {
 
   @override
   Widget build(BuildContext context) {
-    print(widget.user.id);
-    return SafeArea(
-      child: Scaffold(
+    return Scaffold(
         appBar: AppBar(
           elevation: 2,
           backgroundColor: Colors.white,
@@ -243,7 +241,6 @@ class _MessageChatState extends State<MessageChat> {
             _builderMessageComposer(),
           ],
         ),
-      ),
-    );
+      );
   }
 }
